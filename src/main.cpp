@@ -86,7 +86,7 @@ class MyCallbacks : public BLECharacteristicCallbacks
 void setup()
 {
   Serial.begin(115200);
-  Serial1.begin(115200, SERIAL_8N1, 20, 21); // RX=20, TX=21
+  Serial1.begin(115200, SERIAL_8N1, 44, 43); // RX=44, TX=43
 
   // Create the BLE Device
   NimBLEDevice::init("VescBLEBridge");
